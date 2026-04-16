@@ -1,0 +1,144 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fcf8f2; /* Crema muy claro */
+    margin: 20px;
+    color: #5d5d5d;
+}
+
+/* Header Dorado Pastel */
+.header-main {
+    background-color: #f3e5ab; /* Dorado suave / Vainilla */
+    text-align: center;
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #e2d186;
+}
+
+.header-main h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #8a7310; /* Texto dorado oscuro para contraste */
+}
+
+/* Barra de Navegación Rosa Pastel */
+.navbar {
+    background-color: #fbcfe8; /* Rosa suave */
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f9a8d4;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #9d174d; /* Rosa oscuro */
+    font-weight: bold;
+}
+
+/* Contenedor Principal */
+.container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Sección Central (Gris Perla Suave) */
+.main-info {
+    flex: 3;
+    background-color: #f1f5f9; /* Gris azulado muy pálido */
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+}
+
+.main-info h2 {
+    color: #475569;
+    margin-top: 0;
+}
+
+/* Tarjetas Dorado muy suave */
+.card {
+    background-color: #fef3c7; /* Dorado pastel claro */
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #fde68a;
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #92400e;
+}
+
+/* Columna Derecha (Azul Sora Pastel) */
+.side-info {
+    flex: 1;
+    background-color: #bae6fd; /* Azul cielo suave */
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #7dd3fc;
+}
+
+.side-info h2 {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #0369a1;
+}
+
+.search-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0c4a6e;
+}
+
+.search-box input {
+    width: 80%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #7dd3fc;
+    margin-bottom: 15px;
+}
+
+.search-box button {
+    background-color: #f3e5ab; /* Dorado */
+    color: #8a7310;
+    border: 1px solid #e2d186;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #e2d186;
+}
+
+/* Footer Dorado Pastel */
+.footer-main {
+    background-color: #f3e5ab;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    border-top: 1px solid #e2d186;
+    color: #8a7310;
+}
+
+.footer-main p {
+    margin: 5px 0;
+    font-weight: 500;
+}
