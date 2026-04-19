@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiales - Melissa Pinares</title>
+    <link rel="stylesheet" href="css/biografia.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">MELISSA P.</div>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="biografia.html">SOBRE MÍ</a></li>
+                <li><a href="familia.html">FAMILIA</a></li>
+                <li><a href="estudios.html">ESTUDIOS</a></li>
+                <li><a href="materiales.html" class="active">MATERIALES</a></li>
+                <li><a href="descargas.html">DESCARGAS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="biography-section">
+        <div class="container-flex">
+            <div class="text-column">
+                <span class="subtitle">APRENDIZAJE</span>
+                <h1 class="main-title">Programación Web</h1>
+                <p>Recopilación de conceptos fundamentales abordados durante el curso, desde la estructura base hasta la interacción con el usuario.</p>
+                
+                <div class="search-container">
+                    <input type="text" id="searchTopic" placeholder="Buscar tema (Ej: HTML5, CSS3, Formularios...)">
+                    <button class="btn-cta" style="padding: 10px 20px; cursor: pointer; background: var(--dark); color: white; border: none; border-radius: 5px;">BUSCAR</button>
+                </div>
+
+                <div class="topic-card">
+                    <h3>HTML5: Estructura y Semántica</h3>
+                    <p>Dominio de etiquetas estructurales (header, main, section, footer) para mejorar el posicionamiento SEO y la accesibilidad web.</p>
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" class="tool-link">Documentación Oficial MDN →</a>
+                </div>
+
+                <div class="topic-card">
+                    <h3>CSS3: Diseño y Estilo Moderno</h3>
+                    <p>Uso de Flexbox y CSS Grid para la creación de interfaces responsivas y adaptables a cualquier dispositivo móvil.</p>
+                    <a href="https://css-tricks.com/" target="_blank" class="tool-link">Referencia CSS Tricks →</a>
+                </div>
+
+                <div class="topic-card">
+                    <h3>Formularios y Atributos</h3>
+                    <p>Implementación de controles de entrada (inputs, selects, validaciones) para la captura segura de datos de usuario.</p>
+                </div>
+
+                <div class="topic-card">
+                    <h3>Enlaces y Multimedia</h3>
+                    <p>Gestión de rutas relativas/absolutas y etiquetas de medios como video, audio e imágenes optimizadas.</p>
+                </div>
+            </div>
+
+            <div class="image-column">
+                <div class="image-wrapper">
+                    <img src="img/web-dev.jpg" alt="Entorno de desarrollo Melissa">
+                    <div class="experience-badge">
+                        <p style="margin: 0; font-size: 0.8rem;">TECNOLOGÍAS CLAVE</p>
+                        <div style="display: flex; gap: 15px; justify-content: center; margin-top: 10px;">
+                            <i class="fab fa-html5" style="font-size: 25px; color: #e34f26;"></i>
+                            <i class="fab fa-css3-alt" style="font-size: 25px; color: #1572b6;"></i>
+                            <i class="fab fa-js" style="font-size: 25px; color: #f7df1e;"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 40px; padding: 20px; border: 1px dashed var(--gold); border-radius: 10px;">
+                    <h4>Recursos Adicionales</h4>
+                    <p style="font-size: 0.9rem;">Consulta la sección de <a href="descargas.html" style="color: var(--gold);">descargas</a> para obtener las guías en PDF del curso.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
